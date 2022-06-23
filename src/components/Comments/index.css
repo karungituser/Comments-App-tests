@@ -1,0 +1,126 @@
+/* Write your CSS here */
+.comment-container {
+  height: 100vh;
+  padding-left: 20px;
+  margin-top: 50px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 34px;
+  color: #1e293b;
+}
+.comment-image {
+  width: 240px;
+  height: 200px;
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  color: #475569;
+}
+.input-text {
+  color: #dee0e3;
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  padding: 7px;
+  width: 75%;
+  margin-bottom: 10px;
+  border: 1px solid #dee0e3;
+}
+.text-area {
+  color: #dee0e3;
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-bottom: 10px;
+  height: 60px;
+  width: 85%;
+  padding: 10px;
+  border: 1px solid #dee0e3;
+}
+.comment-btn {
+  background-color: #0284c7;
+  border: none;
+  border-radius: 7px;
+  color: #cbd2d9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  padding: 10px;
+  width: 35%;
+  cursor: pointer;
+  outline: none;
+  flex: 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  order: 1;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.line {
+  border: 1px solid #7e858e;
+  width: 100%;
+}
+.content {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #334155;
+  font-weight: 500;
+}
+.comments-count {
+  background-color: #0284c7;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 10px;
+  margin-right: 10px;
+}
+.list-container {
+  list-style-type: none;
+}
+.commentContainer {
+  width: 90%;
+  max-width: 550px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  .input-container {
+    flex-direction: row;
+  }
+  .form {
+    order: 0;
+    width: 40%;
+    margin-top: 40px;
+  }
+  .comment-image {
+    width: 290px;
+    height: 240px;
+  }
+  .commentContainer {
+    max-width: 1140px;
+    padding-left: 40px;
+    padding-top: 35px;
+  }
+  .description {
+    font-size: 17px;
+  }
+  .input-text {
+    padding: 10px;
+    font-size: 15px;
+  }
+  .text-area {
+    font-size: 15px;
+    padding: 15px;
+    height: 100px;
+  }
+}
